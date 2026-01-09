@@ -1,0 +1,7 @@
+:root { --fg: #f8fafc; --muted: #a3a3a3; --accent: #ffd84c; }
+* { box-sizing: border-box; }
+html, body, .page { margin:0; padding:0; height:100%; font-family: system-ui, Inter, Arial; color: var(--fg); background:#0b0d12; }
+.section { position: relative; min-height: 120vh; display: grid; place-items: center; padding: 8vh 4vw; }
+.section .sub { color: var(--muted); margin-top: 2rem; }
+/* ... Rest wie im Beispiel ... */
+``
